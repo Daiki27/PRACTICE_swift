@@ -1,12 +1,12 @@
 # PRACTICE_swift
 
-### Grammer
+## Grammer
 
-* 変数の型を表示する.
+### 変数の型を表示する.
 ```
 print(type(of: number))
 ```
-* 関数の表記 | [ref](https://docs.swift.org/swift-book/LanguageGuide/Functions.html).
+### 関数の表記 | [ref](https://docs.swift.org/swift-book/LanguageGuide/Functions.html).
 以下の3つの場合のresultは同じ値を示す. 同じ挙動をしている.  
 
 ▶︎ Argument label : 関数呼び出し時に使用する.  
