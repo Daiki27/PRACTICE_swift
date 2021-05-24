@@ -37,3 +37,16 @@ func someFunction(_ height: Int, _ width: Int) {
 }
 result = someFunction(100, 30)
 ```
+
+### 引数のsenderとは？
+* sender : 対象アクションのトリガーとなったUIのこと([ref](https://qiita.com/uhooi/items/e90d06e5d5681d72cbd0))
+   * 下例だとタップされたボタンが格納される.
+```
+@IBAction func conversationButton(_ sender : Any){
+    label.text = "Good Morning !"
+}
+```
+* ルール
+ 　*　senderを使用する：senderを具体的な型に入れて宣言する.
+ 　*　senderを使用しない：senderを具体的な型に入れて宣言する. sender自体を書かない人もいる一方で, 具体的な型を丁寧に書いた方が可読性が上がるとのスタンスの人もいるので, とりあえずはそちらを採用する.
+
