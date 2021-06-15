@@ -37,6 +37,17 @@ func someFunction(_ height: Int, _ width: Int) {
 }
 result = someFunction(100, 30)
 ```
+あとは, 次のようにthrowsが印されたスロー関数もある. 
+```
+func someThrowingFunction() throws {
+    // ...
+}
+
+func someThrowingFunction() throws -> Int {
+    // ...
+}
+```
+
 
 ### 引数のsenderとは？
 * sender : 対象アクションのトリガーとなったUIのこと([ref](https://qiita.com/uhooi/items/e90d06e5d5681d72cbd0))
