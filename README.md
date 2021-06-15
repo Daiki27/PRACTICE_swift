@@ -49,3 +49,9 @@ result = someFunction(100, 30)
 * senderを使用する：senderを具体的な型に入れて宣言する.
 * senderを使用しない：senderを具体的な型に入れて宣言する. sender自体を書かない人もいる一方で, 具体的な型を丁寧に書いた方が可読性が上がるとのスタンスの人もいるので, とりあえずはそちらを採用する.
 
+### 型キャストについて
+> [Apple | TYPE CASTING](https://rusutikaa.github.io/docs/docs.swift.org/swift-book/LanguageGuide/TypeCasting.html)
+型キャストは、あるインスタンスの型を調べるための、またはそのインスタンスを、それ自身のクラス階層中のどこか他の別のスーパークラスやサブクラスとして扱うための方法です。
+
+* Any型についてのメモ
+  * UIColoなどrもAnyのサブクラス(同じ階層？と表現して良いのかな)である. is演算子で確認できる.
